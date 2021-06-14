@@ -1,4 +1,17 @@
 # PDF_convert_image
+
+## What is this?
+
+It's a little application for me to convert the PDF i need into jpg files.
+
+When it runs the .exe file, it will search the file which ends with .pdf in the folder it belongs to.
+
+After that, it will transform it into jpg through each page in the file.
+
+Last, it will print how many PDF files exists in this folder and how many jpg files have been created.
+
+_The jpg file will be named as the name of the PDF file with the page number, such as example_1.jpg, example_2.jpg._
+
 ## Module shoud be install
 * pdf2image
 ```python
