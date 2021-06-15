@@ -6,7 +6,7 @@ It's a little application for me to convert the PDF i need into jpg files.
 
 When it runs the .exe file, it will search the file which ends with .pdf in the folder it belongs to.
 
-After that, it will transform it into jpg through each page in the file, and save it in the folder named as the file name,ex: _C:/Desktop/test/example_1.jpg_ .
+After that, it will transform it into jpg through each page in the file, and save it in the folder named as the file name, ex: _C:/Desktop/test/example_1.jpg_ .
 
 Last, it will print how many PDF files exists in this folder and how many jpg files have been created.
 
