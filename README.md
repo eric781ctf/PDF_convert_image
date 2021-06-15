@@ -19,11 +19,11 @@ pip install pdf2image
 ```
 * Poppler
 
-** Down load from [here](http://blog.alivate.com.au/poppler-windows/).
+  * Down load from [here](http://blog.alivate.com.au/poppler-windows/).
 
-** Unzip it to C:/Program Files.
+  * Unzip it to C:/Program Files.
 
-** Set __C:\Program Files\poppler-0.68.0\bin__ to your system PATH.
+  * Set __C:\Program Files\poppler-0.68.0\bin__ to your system PATH.
 
 
 ## How to use it?
