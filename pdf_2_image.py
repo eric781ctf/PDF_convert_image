@@ -18,12 +18,14 @@ from pdf2image.exceptions import (
 
 
 def convert(file_name):
+    file = file_name.replace('.pdf','')
+    os.mkdir('./'+file)
     count_jpg = 0
     #pages = convert_from_path('./'+file_name)
     pages = convert_from_bytes(open('./'+file_name, 'rb').read())
     for page in pages:
-        page.save(file_name+'_'+str(count_jpg)+'.jpg', 'JPEG')
-        count_jpg+=1 
+        page.save('./'+file+'/'+file+'_'+str(count_jpg)+'.jpg', 'JPEG')
+        count_jpg+=1
     
     return count_jpg
 
