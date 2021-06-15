@@ -28,4 +28,8 @@ pip install pdf2image
 
 ## How to use it?
 
-Copy the .exe files to the folder where the PDF you want to transform is.
+Copy the .exe file from folder dist to the folder where the PDF you want to transform is.
+
+Run the .exe file (double clicks) it will start program and print how many PDF files exists in this folder and how many jpg files have been created.
+
+It will closed in 5 sec after print the results.
